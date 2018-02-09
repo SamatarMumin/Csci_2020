@@ -22,7 +22,7 @@ task(run, dependsOn: 'classes', type: JavaExec){
 
 buildscript{
     repositories{
-        flatDir dirs: '/home/musabbir/JavaLabs/csci2020u/proguard5.3.3/lib'
+        flatDir dirs: '/home/SamatarMumin/csci2020u/proguard5.3.3/lib'
     }
     dependencies{
         classpath ':proguard'
